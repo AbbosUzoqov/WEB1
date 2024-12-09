@@ -21,3 +21,74 @@
          url("/static/fonts/Inter-Regular.woff2") format("woff");
     font-weight: 400;
 }
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Black Italic'), local('Inter-BlackItalic'),
+         url("/static/fonts/Inter_18pt-BlackItalic.woff2") format("woff2");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Light Italic'), local('Inter-LightItalic'),
+         url("/static/fonts/Inter_18pt-LightItalic.woff2") format("woff2");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Thin Italic'), local('Inter-ThinItalic'),
+         url("/static/fonts/Inter_28pt-ThinItalic.woff2") format("woff2");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Medium Italic'), local('Inter-MediumItalic'),
+         url("/static/fonts/Inter_28pt-MediumItalic.woff2") format("woff2");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter ExtraLight Italic'), local('Inter-ExtraLightItalic'),
+         url("/static/fonts/Inter_24pt-ExtraLightItalic.woff2") format("woff2");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+         url("/static/fonts/noto-sans-bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+         url("/static/fonts/noto-sans.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter Black Italic'), local('Inter-BlackItalic'),
+         url("/static/fonts/Inter_24pt-BlackItalic.woff2") format("woff2");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local('Inter SemiBold Italic'), local('Inter-SemiBoldItalic'),
+         url("/static/fonts/Inter_18pt-SemiBoldItalic.woff2") format("woff2");
+    font-weight: 600;
+    font-style: italic;
+}

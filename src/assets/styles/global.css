@@ -9,3 +9,10 @@ html {
     box-sizing: border-box;
 }
 
+/* Стили для параграфов */
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+

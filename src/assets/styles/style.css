@@ -2,10 +2,154 @@
 @import "./fonts.css";
 @import "./utils.css";
 
-.test {
-    color: yellow !important;
+/* Стили для всех элементов */
+html {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
-.test {
-    color: red !important;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Стили для параграфов */
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+h2.contact {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+/* Поля ввода */
+input, textarea {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+/* Кнопка отправки формы */
+.submit {
+    background: linear-gradient(90deg, #4C9FF0, #8C4EF8); 
+    border: none;
+    border-radius: 70px; 
+    color: white; 
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px 30px; 
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+/* Форма на странице контактов */
+form.contact-form {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVYBcl4IsBo9DsIU_k565tzEh4F1gW3dyo3w&s'); 
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 400px; 
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+}
+
+form.contact-form label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form.contact-form input, 
+form.contact-form textarea {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 14px;
+}
+
+form.contact-form textarea {
+    resize: vertical; 
+}
+
+form.contact-form button {
+    display: block;
+    width: 100%; 
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Хлебные крошки */
+.breadcrumbs {
+    list-style: none;
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    background: #459696;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.breadcrumbs li {
+    padding: 10px 20px;
+    background: #459696;
+    border-right: 3px solid #000404;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000404;
+}
+
+.breadcrumbs li:last-child {
+    border-right: none; 
+    background: #459696;
+    border-right: 3px solid #000404;
+    border-radius: 20px;
+}
+
+.breadcrumbs li a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.breadcrumbs li:hover {
+    background: #75b7e6; 
 }

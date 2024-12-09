@@ -4,57 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты</title>
+    <link rel="stylesheet" href="/src/assets/styles/style.css">
 </head>
 <body>
     <header>
         <img src="https://cdn.dribbble.com/users/5204295/screenshots/13900023/media/e2be2276515ecc14947ecc03bd5d6bac.jpg" alt="Логотип компании">
         <nav>
-            <ul>
+            <ul class="breadcrumbs">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </header>
 
-    <h2>Contact Us</h2> 
-    <p>Привет</p> 
+    <h2 class="contact-title">Contact Us</h2> 
+    <p class="paragraph">Привет</p> 
 
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxVgU1HRDenyhn3Sea7IQ_HICEc-HeSS7fPw&s.jpg" alt="Изображение контактов" width="350px">
 
-    <h4>Address</h4> 
-    <p>Москва</p>
+    <h4 class="section-title">Address</h4> 
+    <p class="paragraph">Москва</p>
 
-    <h4>Phone</h4> 
+    <h4 class="section-title">Phone</h4> 
     <ul>
         <li>+7 900 000 00 00</li>
         <li>+7 900 000 00 01</li>
     </ul> 
 
-    <h4>Online service</h4> 
+    <h4 class="section-title">Online service</h4> 
     <ul>
         <li><a href="https://example.com">itsolution.com</a></li>
         <li><a href="mailto:info@example.com">itsolution@gmail.com</a></li>
     </ul> 
-    <p>Адрес: Москва, ул. Технологий, 1</p>
-    <p>Телефон: +7 900 000 00 00</p>
-    <h4>Send us message</h4> 
-    <form action="/submit" method="POST">
+
+    <h4 class="section-title">Send us message</h4> 
+    <form action="/submit" method="POST" class="contact-form">
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required><br>
+        <input type="text" id="name" name="name" class="input-field" required><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
+        <input type="email" id="email" name="email" class="input-field" required><br>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        <textarea id="message" name="message" class="input-field" rows="4" cols="50" required></textarea><br>
 
-        
-        <button type="submit">Submit</button> 
+        <button type="submit" class="submit">Submit</button> 
     </form>
 
     <footer>
-        <h3>Контакты IT Solution</h3>
-        <p>Свяжитесь с нами для сотрудничества.</p>
+        <h3 class="subtitle">Контакты IT Solution</h3>
+        <p class="paragraph">Свяжитесь с нами для сотрудничества.</p>
         <hr>
         <ul>
             <li>Адрес: Москва, ул. Технологий, 1</li>
